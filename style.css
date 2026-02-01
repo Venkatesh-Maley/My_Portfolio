@@ -318,6 +318,56 @@ section {
 
 #experience {
   position: relative;
+  height: auto;
+  min-height: 80vh;
+  padding-bottom: 2rem;
+}
+
+.experience-list {
+  text-align: left;
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+  list-style-type: disc;
+}
+
+.experience-list li {
+  margin-bottom: 0.5rem;
+  color: rgb(85, 85, 85);
+  font-size: 0.95rem;
+}
+
+.details-container h3 {
+  margin-bottom: 0.5rem;
+}
+
+.details-container p {
+  margin-bottom: 0.5rem;
+}
+
+#experience .about-details-container {
+  width: 100%;
+}
+
+#experience .about-containers {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#experience .details-container {
+  min-width: 300px;
+  max-width: 500px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#experience .details-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* SKILLS SECTION (Previously Experience) */
+
+#skills {
+  position: relative;
 }
 
 .experience-sub-title {
